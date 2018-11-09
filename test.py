@@ -1,3 +1,4 @@
 sentence="Rocky Road"
-char="Dough"
-print(sentence+char)
+char=" Dough"
+charac=" Rainbow"
+print(sentence+char+charac)
