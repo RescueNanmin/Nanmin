@@ -19,12 +19,16 @@ class Photo (File):
     Height
     Width
     Date_Taken
-    Device_Name
+    Device_Nam
+e
+    def __init__(self, path):
+        self.path = path
+
 
 class OlymPhoto (Photo):
 
     def convertOlym
-            for infile in glob.glob(File.Photo.path):
-                with rawpy.imread(infile) as raw:
+            for File.Photo.path in glob.glob(File.Photo.path):
+                with rawpy.imread(File.Photo.path) as raw:
                 rgb = raw.postprocess()
-                imageio.imwrite('test.jpg', rgb)
+                imageio.imwrite('Simplified.jpg', rgb)
