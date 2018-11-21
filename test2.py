@@ -1,0 +1,2 @@
+word="strawberry"
+print(word)
