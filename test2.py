@@ -1,2 +1,0 @@
-word="strawberry"
-print(word)
